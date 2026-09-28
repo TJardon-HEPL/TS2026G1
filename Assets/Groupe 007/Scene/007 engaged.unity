@@ -180,6 +180,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d81dd7bab30ab4499c2b1d6b65846f0, type: 3}
+--- !u!1 &1471813133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5776854509566042394, guid: 5d81dd7bab30ab4499c2b1d6b65846f0, type: 3}
+  m_PrefabInstance: {fileID: 1471813132}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919253617
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +196,7 @@ GameObject:
   - component: {fileID: 1919253620}
   - component: {fileID: 1919253619}
   - component: {fileID: 1919253618}
+  - component: {fileID: 1919253621}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -272,6 +278,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1919253621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919253617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90809bcf0b8c60c48a876bc2b9928ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::lunch
+  lunchPrefab: {fileID: 1471813133}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
