@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15c3c291ba13b544ab77a1d9bcc99af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Move
+  speed: {x: 5, y: 0, z: 0}
